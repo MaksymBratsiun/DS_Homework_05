@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ds-homework-05"
+version = "0.1.0"
+description = ""
+authors = ["MaksymBratsiun <bratsyun_m@ukr.net>"]
+readme = "README.md"
+packages = [{include = "ds_homework_05"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^6.5.4"
+numpy = "^1.25.0"
+pandas = "^2.0.2"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
